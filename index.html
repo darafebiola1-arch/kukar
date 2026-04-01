@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kutai Kartanegara</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#D2DCB6);
+      text-align: center;
+    }
+
+    .navbar {
+      background: #778873;
+      padding: 15px;
+    }
+
+    .navbar a {
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://image2url.com/r2/default/files/1774935430426-00b22f93-558f-4370-963f-901e2e22baf6.jpg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero div {
+      background: rgba(0,0,0,0.4);
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    .hero p {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    h2.section-title {
+      font-family: 'Playball', serif;
+      font-size: 33px;
+      color: #41431B;
+      margin-top: 30px;
+    }
+
+    video {
+      width: 90%;
+      max-width: 700px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .card-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .card {
+      background: #778873;
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-decoration: none;
+      color: black;
+      font-family: Playfair Display;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      padding: 0 10px 10px;
+      font-size: 14px;
+    }
+
+    footer {
+      background: #778873;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div>
+    <h2>Kutai Kartanegara</h2>
+    <p>Wisata Alam & Budaya Kalimantan Timur</p>
+  </div>
+</section>
+
+<h2 class="section-title">Destinasi Wisata</h2>
+<video controls>
+  <source src="https://image2url.com/r2/default/videos/1774934098077-f570b4c1-77e5-46e7-9acb-24539b9d02c6.mp4" type="video/mp4">
+</video>
+
+<div class="card-container">
+  <a href="wisata.html" class="card">
+    <img src="https://cdn.phototourl.com/free/2026-03-31-18e54b7a-b41b-41d4-aa43-7131403225c9.jpg" alt="Pulau Kumala">
+    <h3>Pulau Kumala</h3>
+    <p>Pulau Kumala adalah destinasi wisata di Sungai Mahakam dengan wahana menarik.</p>
+  </a>
+
+  <a href="wisata.html" class="card">
+    <img src="https://cdn.phototourl.com/free/2026-03-31-14b79453-ffa9-4b66-999b-19bf4d4c198d.jpg" alt="Museum Mulawarman">
+    <h3>Museum Mulawarman</h3>
+    <p>Museum sejarah Kerajaan Kutai.</p>
+  </a>
+</div>
+
+</body>
+</html>
